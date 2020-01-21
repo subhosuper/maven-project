@@ -7,7 +7,7 @@ pipeline{
                     build job: 'package'
                 }
                 post{
-                    succes{
+                    success{
                         echo "Code is working"
                     }
                     
